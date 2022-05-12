@@ -5,7 +5,7 @@ output: html_notebook
 
 # The shape of tides
 
-The goal of this project is to analyse tide times in Galway and try to extract some information on the periodicity of tide times.
+The goal of this project is to analyse tide times in Galway and try to extract some information on the periodicity of tide times. We'll use methods from an area of maths called topology.
 
 We first load the R-TDA package
 
@@ -17,7 +17,7 @@ library(TDA)
 We will now read tide times from 15/03-29/03.
 
 ```{r}
-tides <- read.csv(file="/Users/michaelmcgloin/Downloads/galwaytides.csv", nrows=3411, header=FALSE)
+tides <- read.csv(file="/Users/jamesmcgloin/Documents/CodingProjects/The-Shape-of-Tides/galwaytides.csv", nrows=3411, header=FALSE)
 height <- tides[,8]
 ```
 
