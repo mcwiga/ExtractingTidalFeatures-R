@@ -1,4 +1,4 @@
-# The shape of tides
+# The shape of tides (Topological Data Analysis)
 
 The goal of this project is to analyse tide times in Galway and try to
 extract some information on the periodicity of tide times. We’ll use
